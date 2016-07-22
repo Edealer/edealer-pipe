@@ -1,0 +1,26 @@
+{
+  "name": "edealer-pipe",
+  "version": "0.1.0",
+  "description": "Just a pipe library",
+  "main": "src/Edealer/Pipe/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edealer/edealer-pipe.git"
+  },
+  "keywords": [
+    "pipe"
+  ],
+  "author": "Edealer.ca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edealer/edealer-pipe/issues"
+  },
+  "homepage": "https://github.com/Edealer/edealer-pipe#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
