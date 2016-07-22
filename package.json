@@ -1,6 +1,6 @@
 {
   "name": "edealer-pipe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Just a pipe library",
   "main": "src/Edealer/Pipe/index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "async": "^2.0.0"
   }
 }
