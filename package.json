@@ -13,7 +13,7 @@
   "keywords": [
     "pipe"
   ],
-  "author": "Edealer.ca",
+  "author": "kinncj <kinncj@php.net>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Edealer/edealer-pipe/issues"
