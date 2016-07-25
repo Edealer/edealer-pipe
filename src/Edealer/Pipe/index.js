@@ -21,11 +21,11 @@ module.exports = function() {
         async.waterfall(
             this.pipes,
             function(error, result){
+                data = result;
+                
                 if (error) {
                     data = error;
                 }
-
-                data = result;
 
                 callback(error, result);
 
