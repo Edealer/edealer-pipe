@@ -16,7 +16,7 @@ module.exports = function() {
     }.bind(this);
 
     this.execute = function(callback) {
-        var data = 'xuple';
+        var data = {};
 
         async.waterfall(
             this.pipes,
@@ -28,7 +28,6 @@ module.exports = function() {
                 }
 
                 callback(error, result);
-
             }
         );
 
