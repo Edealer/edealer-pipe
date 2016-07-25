@@ -1,6 +1,6 @@
 {
   "name": "edealer-pipe",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Just a pipe library",
   "main": "src/Edealer/Pipe/index.js",
   "scripts": {
